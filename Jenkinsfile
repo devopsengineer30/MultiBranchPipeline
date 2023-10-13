@@ -8,7 +8,7 @@ pipeline {
             }
         }
      
-        stage('Test') { 
+        stage('build') { 
             steps { 
                sh 'echo "Testing application..."'
             }
