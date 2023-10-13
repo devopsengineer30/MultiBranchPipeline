@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {   
-        stage('main branch') { 
+        stage('dev branch') { 
             steps { 
-               sh 'echo "This is main branch' 
+               sh 'echo "This is dev branch' 
             }
         }
      
